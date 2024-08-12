@@ -59,6 +59,46 @@ $toc-font-size: 1em;
 $btn-code-copy-color-active: $orange !default;
 
 
+
+
+/* Dark mode colors */
+$dark-white:    #ffffff !default;
+$dark-gray-100: #1e1e1e !default;
+$dark-gray-200: #2d2d2d !default;
+$dark-gray-300: #3c3c3c !default;
+$dark-gray-400: #4a4a4a !default;
+$dark-gray-500: #595959 !default;
+$dark-gray-600: #6e6e6e !default;
+$dark-gray-700: #838383 !default;
+$dark-gray-800: #a0a0a0 !default;
+$dark-gray-900: #c5c5c5 !default;
+$dark-black:    #000000 !default;
+
+$dark-primary:   $teal !default;
+$dark-secondary: $dark-gray-700 !default;
+$dark-success:   $green !default;
+$dark-info:      $cyan !default;
+$dark-warning:   $orange !default;
+$dark-danger:    $red !default;
+$dark-light:     $dark-gray-400 !default;
+$dark-dark:      $dark-black !default;
+
+// Dark mode links
+$link-color-dark: $dark-primary !default;
+$link-hover-color-dark: $dark-red !default;
+
+// Dark mode footer
+$footer-bg-dark: $dark-gray-900 !default;
+$footer-fg-dark: $dark-gray-300 !default;
+
+// Dark mode inline code
+$code-bg-dark: $dark-gray-200 !default;
+$code-color-dark: $dark-gray-900 !default;
+
+
+
+
+
 /*-- scss:rules --*/
 
 
@@ -116,5 +156,48 @@ $btn-code-copy-color-active: $orange !default;
         .nav-footer-center {
             flex: 1 1 33%;
         }
+    }
+}
+
+
+
+
+/* Dark mode rules */
+body.dark-mode {
+    background-color: $dark-gray-100;
+    color: $dark-gray-300;
+
+    a {
+        color: $link-color-dark;
+    }
+
+    .nav-footer {
+        background-color: $footer-bg-dark;
+        color: $footer-fg-dark;
+    }
+
+    code {
+        background-color: $code-bg-dark;
+        color: $code-color-dark;
+    }
+}
+
+/* Default light mode styles */
+body {
+    background-color: $white;
+    color: $black;
+
+    a {
+        color: $link-color;
+    }
+
+    .nav-footer {
+        background-color: $footer-bg;
+        color: $footer-fg;
+    }
+
+    code {
+        background-color: $code-bg;
+        color: $code-color;
     }
 }

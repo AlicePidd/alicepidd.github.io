@@ -1,0 +1,11 @@
+/* Dark mode styles */
+:root[data-theme='dark'] {
+  --background-color: #000000;
+  --text-color: #ffffff;
+  /* Add more dark mode styles here */
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}

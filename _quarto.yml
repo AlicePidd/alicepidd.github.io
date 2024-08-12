@@ -12,12 +12,12 @@ website:
   description: "Alice is a PhD student at USC"   # A brief slogan (optional)
   image: img/NZ2023_1.jpg # Photo of yourself from the img folder within this proj
   
-  favicon: img/icon.png # Logo or icon for the website, same as firefox or other website logos you see in a tab
+  favicon: img/icon1.png # Logo or icon for the website, same as firefox or other website logos you see in a tab
   
   # start of the navigation bar at the top of the website
   navbar:
     pinned: true # Navbar will be stuck at the top
-    logo: /img/icon.png # Logo to the left of the navbar
+    logo: /img/icon1.png # Logo to the left of the navbar
     
     # your sub-pages
     left: # Justified to the left of the 
@@ -56,10 +56,10 @@ website:
     location: navbar
     type: textbox
   page-footer: 
-    left: |
-      <span class="faux-block">&#169; 2024 Gandalf the White CC BY-SA 4.0</span>
+    # left: |
+    #   <span class="faux-block">&#169; 2024 Gandalf the White CC BY-SA 4.0</span>
     right: |
-      <span class="faux-block"><a href="https://github.com/<github username>/<github username>.github.io">View source on GitHub</a></span>
+      <span class="faux-block"><a href="https://github.com/AlicePidd/alicepidd.github.io">View source on GitHub</a></span>
 
 project:
   type: website
