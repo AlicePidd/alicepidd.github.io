@@ -14,18 +14,11 @@
     "text": "Download current CV\n  \n\n\n  \n\n\nView the tutorial for this template (+ download link)"
   },
   {
-    "objectID": "photography/index.html",
-    "href": "photography/index.html",
-    "title": "Photography",
+    "objectID": "current_projectsTEST/index.html",
+    "href": "current_projectsTEST/index.html",
+    "title": "Current projects",
     "section": "",
-    "text": "As a wizard and scholar of Middle-earth, I have been studying the magic of the natural world for centuries. Through my self-portraits, I aim to capture the essence of my own being and reflect on my own journey through time. Each photograph is a reflection of my own experiences and emotions. Through my photography, I hope to offer a glimpse into my life as a scholar and adventurer, and inspire others to reflect on their own journeys through the world."
-  },
-  {
-    "objectID": "posts/2024-04-19-app-pros-con/index.html",
-    "href": "posts/2024-04-19-app-pros-con/index.html",
-    "title": "Web apps in R - To package or not to package?",
-    "section": "",
-    "text": "Quarto ‘quick and dirty’ or {Golem} for longevity and complexity?\nAs expected in an open-source programming language, the app-making landscape in R seems to be in constant flux. Something newish that I’ve been finding useful lately is using Quarto’s ‘Dashboards with Shiny for R’ feature.\nQuarto is very similar to Rmarkdown, but has a few additional features. One of them is the ability to embed R {shiny} apps. So you end up writing your app like you would a markdown doc - the context, ui, and server are all code chunks, and the text around those code chunks set’s up the UI. For example, normally in markdown we use # to delineate and navigate headers; in Quarto Shiny Dashboards, # are used to delineate pages, tab panels, etc.\nI’ve found it’s great for proto-typing simple apps - you can get something up and running very quickly in Quarto’s ‘Dashboards with Shiny for R’. However, I think it could get unwieldy when you start building complex apps with modules etc. In that case, developing your {shiny} app as an R package with {golem} might be a better option. {golem} provides a great framework for engineering production grade shiny apps that are complex and can be easily maintained in the long-term.\nI ended up turning the prototype app I built in Quarto’s ‘Dashboards with Shiny for R’ into an R package with {golem}. It took much longer than I expected, but much of that time was learning about R package development (which I had never done before) and {golem}.\nIn the end I think it was worth the extra time and effort streamline as an R package. But if you want to compare for yourself, find the protoype Quarto dashboard shiny here and the {golem} R package version here.\nCurious to hear others’ experiences though - please get in touch."
+    "text": "PhD chapters (University of the Sunshine Coast, QLD, Australia)\n\nFuture ocean climate and implications for Australia’s marine protected areas\n\nPut abstract here\n\n\n\n\n\n\n\n\nOther\n\nBlahblahblah\n GIFs work!"
   },
   {
     "objectID": "projects/index.html",
@@ -49,37 +42,16 @@
     "text": "The History of the War of the Ring\n\narXiv Preprint | Code\nI am creating a comprehensive and detailed history of the conflict that goes beyond the surface-level events. By gathering information from a variety of sources, including my own memories, written accounts, and oral histories, I hope to shed new light on this important period in Middle-earth’s history and provide valuable insights into the motivations and actions of the various players involved."
   },
   {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "My Blog",
-    "section": "",
-    "text": "Test blog\n\n\n\nquarto\n\n\nR\n\n\nweb app\n\n\ngolem\n\n\n\ntesting things out with Jase’s\n\n\n\nAlice Pidd\n\n\nAug 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeb apps in R - To package or not to package?\n\n\n\nquarto\n\n\nR\n\n\nweb app\n\n\ngolem\n\n\n\nDifferent approaches to developing web apps in R\n\n\n\nChristina Buelow\n\n\nApr 19, 2024\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projectsTest/index.html",
-    "href": "projectsTest/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "arXiv Preprint | Code\nOver the centuries, I have devoted countless hours to deciphering and translating the ancient scripts and dialects of the various peoples of Middle-earth. My goal is to gain a deeper understanding of the cultures and histories of these peoples by studying their languages. Currently, I am working on a monograph that explores the linguistic roots of the Elvish languages. Through extensive research and analysis, I hope to shed light on the connections between the different dialects of Elvish and their origins. This project has been particularly challenging, as Elvish is a complex and nuanced language, but I am determined to see it through to completion."
-  },
-  {
-    "objectID": "projectsTest/index.html#the-languages-of-middle-earth",
-    "href": "projectsTest/index.html#the-languages-of-middle-earth",
-    "title": "Projects",
-    "section": "",
-    "text": "arXiv Preprint | Code\nOver the centuries, I have devoted countless hours to deciphering and translating the ancient scripts and dialects of the various peoples of Middle-earth. My goal is to gain a deeper understanding of the cultures and histories of these peoples by studying their languages. Currently, I am working on a monograph that explores the linguistic roots of the Elvish languages. Through extensive research and analysis, I hope to shed light on the connections between the different dialects of Elvish and their origins. This project has been particularly challenging, as Elvish is a complex and nuanced language, but I am determined to see it through to completion."
-  },
-  {
-    "objectID": "projectsTest/index.html#the-history-of-the-war-of-the-ring",
-    "href": "projectsTest/index.html#the-history-of-the-war-of-the-ring",
-    "title": "Projects",
-    "section": "The History of the War of the Ring",
-    "text": "The History of the War of the Ring\n\narXiv Preprint | Code\nI am creating a comprehensive and detailed history of the conflict that goes beyond the surface-level events. By gathering information from a variety of sources, including my own memories, written accounts, and oral histories, I hope to shed new light on this important period in Middle-earth’s history and provide valuable insights into the motivations and actions of the various players involved."
-  },
-  {
     "objectID": "posts/2024-08-12-app-pros-con/index.html",
     "href": "posts/2024-08-12-app-pros-con/index.html",
     "title": "Test blog",
+    "section": "",
+    "text": "Quarto ‘quick and dirty’ or {Golem} for longevity and complexity?\nAs expected in an open-source programming language, the app-making landscape in R seems to be in constant flux. Something newish that I’ve been finding useful lately is using Quarto’s ‘Dashboards with Shiny for R’ feature.\nQuarto is very similar to Rmarkdown, but has a few additional features. One of them is the ability to embed R {shiny} apps. So you end up writing your app like you would a markdown doc - the context, ui, and server are all code chunks, and the text around those code chunks set’s up the UI. For example, normally in markdown we use # to delineate and navigate headers; in Quarto Shiny Dashboards, # are used to delineate pages, tab panels, etc.\nI’ve found it’s great for proto-typing simple apps - you can get something up and running very quickly in Quarto’s ‘Dashboards with Shiny for R’. However, I think it could get unwieldy when you start building complex apps with modules etc. In that case, developing your {shiny} app as an R package with {golem} might be a better option. {golem} provides a great framework for engineering production grade shiny apps that are complex and can be easily maintained in the long-term.\nI ended up turning the prototype app I built in Quarto’s ‘Dashboards with Shiny for R’ into an R package with {golem}. It took much longer than I expected, but much of that time was learning about R package development (which I had never done before) and {golem}.\nIn the end I think it was worth the extra time and effort streamline as an R package. But if you want to compare for yourself, find the protoype Quarto dashboard shiny here and the {golem} R package version here.\nCurious to hear others’ experiences though - please get in touch."
+  },
+  {
+    "objectID": "posts/2024-04-19-app-pros-con/index.html",
+    "href": "posts/2024-04-19-app-pros-con/index.html",
+    "title": "Web apps in R - To package or not to package?",
     "section": "",
     "text": "Quarto ‘quick and dirty’ or {Golem} for longevity and complexity?\nAs expected in an open-source programming language, the app-making landscape in R seems to be in constant flux. Something newish that I’ve been finding useful lately is using Quarto’s ‘Dashboards with Shiny for R’ feature.\nQuarto is very similar to Rmarkdown, but has a few additional features. One of them is the ability to embed R {shiny} apps. So you end up writing your app like you would a markdown doc - the context, ui, and server are all code chunks, and the text around those code chunks set’s up the UI. For example, normally in markdown we use # to delineate and navigate headers; in Quarto Shiny Dashboards, # are used to delineate pages, tab panels, etc.\nI’ve found it’s great for proto-typing simple apps - you can get something up and running very quickly in Quarto’s ‘Dashboards with Shiny for R’. However, I think it could get unwieldy when you start building complex apps with modules etc. In that case, developing your {shiny} app as an R package with {golem} might be a better option. {golem} provides a great framework for engineering production grade shiny apps that are complex and can be easily maintained in the long-term.\nI ended up turning the prototype app I built in Quarto’s ‘Dashboards with Shiny for R’ into an R package with {golem}. It took much longer than I expected, but much of that time was learning about R package development (which I had never done before) and {golem}.\nIn the end I think it was worth the extra time and effort streamline as an R package. But if you want to compare for yourself, find the protoype Quarto dashboard shiny here and the {golem} R package version here.\nCurious to hear others’ experiences though - please get in touch."
   },
@@ -91,45 +63,17 @@
     "text": "PhD chapters (University of the Sunshine Coast, QLD, Australia)\n\n\nFuture ocean climate and implications for Australia’s marine protected areas\n\n\n&lt;img src=\"climref_overlap.png\" class=\"image-left\" alt=\"Future ocean climate and implications for Australia's marine protected areas\"/&gt;\n*Put abstract here*\n\n\n\n\n\nOther\n\n\nBlahblahblah\n\n\n&lt;img src=\"SSP245_tos.gif\" alt=\"Example GIF of daily sea surface temperature for SSP2-4.5 emissions scenario for 1993\" style=\"max-width: 60%; height: auto; margin-left: 35px;\"/&gt;\n*Put whatever here*"
   },
   {
-    "objectID": "current_projects/index.html#the-languages-of-middle-earth",
-    "href": "current_projects/index.html#the-languages-of-middle-earth",
-    "title": "Current projects",
+    "objectID": "photography/index.html",
+    "href": "photography/index.html",
+    "title": "Photography",
     "section": "",
-    "text": "arXiv Preprint | Code\nOver the centuries, I have devoted countless hours to deciphering and translating the ancient scripts and dialects of the various peoples of Middle-earth. My goal is to gain a deeper understanding of the cultures and histories of these peoples by studying their languages. Currently, I am working on a monograph that explores the linguistic roots of the Elvish languages. Through extensive research and analysis, I hope to shed light on the connections between the different dialects of Elvish and their origins. This project has been particularly challenging, as Elvish is a complex and nuanced language, but I am determined to see it through to completion."
+    "text": "As a wizard and scholar of Middle-earth, I have been studying the magic of the natural world for centuries. Through my self-portraits, I aim to capture the essence of my own being and reflect on my own journey through time. Each photograph is a reflection of my own experiences and emotions. Through my photography, I hope to offer a glimpse into my life as a scholar and adventurer, and inspire others to reflect on their own journeys through the world."
   },
   {
-    "objectID": "current_projects/index.html#the-history-of-the-war-of-the-ring",
-    "href": "current_projects/index.html#the-history-of-the-war-of-the-ring",
-    "title": "Current projects",
-    "section": "The History of the War of the Ring",
-    "text": "The History of the War of the Ring\n\narXiv Preprint | Code\nI am creating a comprehensive and detailed history of the conflict that goes beyond the surface-level events. By gathering information from a variety of sources, including my own memories, written accounts, and oral histories, I hope to shed new light on this important period in Middle-earth’s history and provide valuable insights into the motivations and actions of the various players involved."
-  },
-  {
-    "objectID": "current_projects/index.html#future-ocean-climate-and-implications-for-australias-marine-protected-areas",
-    "href": "current_projects/index.html#future-ocean-climate-and-implications-for-australias-marine-protected-areas",
-    "title": "Current projects",
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "My Blog",
     "section": "",
-    "text": "blhablhablh\nblhablhablh\nblhablhablh\nblhablhablhblhablhablhblhablhablh"
-  },
-  {
-    "objectID": "index.html#ahoy",
-    "href": "index.html#ahoy",
-    "title": "Alice Pidd",
-    "section": "Ahoy!",
-    "text": "Ahoy!\nI am a PhD student, chronic problem-solver, blahblahblah, out-of-doors enthusiast, lover of disco music etc. Something something, data vis, post docs."
-  },
-  {
-    "objectID": "current_projects/index.html#phd-university-of-the-sunshine-coast-qld-australia",
-    "href": "current_projects/index.html#phd-university-of-the-sunshine-coast-qld-australia",
-    "title": "Current projects",
-    "section": "",
-    "text": "blhablhablh\nblhablhablh\nblhablhablh\nblhablhablhblhablhablhblhablhablh"
-  },
-  {
-    "objectID": "current_projectsTEST/index.html",
-    "href": "current_projectsTEST/index.html",
-    "title": "Current projects",
-    "section": "",
-    "text": "PhD chapters (University of the Sunshine Coast, QLD, Australia)\n\nFuture ocean climate and implications for Australia’s marine protected areas\n\nPut abstract here\n\n\n\n\n\n\n\n\nOther\n\nBlahblahblah\n GIFs work!"
+    "text": "Test blog\n\n\n\nquarto\n\n\nR\n\n\nweb app\n\n\ngolem\n\n\n\ntesting things out with Jase’s\n\n\n\nAlice Pidd\n\n\nAug 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeb apps in R - To package or not to package?\n\n\n\nquarto\n\n\nR\n\n\nweb app\n\n\ngolem\n\n\n\nDifferent approaches to developing web apps in R\n\n\n\nChristina Buelow\n\n\nApr 19, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
