@@ -5,6 +5,7 @@ toc-title: Current projects
 toc-location: left
 ---
 
+```{=html}
 <style>
   .document-title::after {
     content: "";
@@ -87,16 +88,20 @@ toc-location: left
     margin: 20px 0; /* Spacing above and below the line */
   }
 </style>
-
-
+```
 ### PhD chapters (University of the Sunshine Coast, QLD, Australia)
 
 <details>
-  <summary>Future ocean climate and implications for Australia's marine protected areas</summary>
-  <div class="collapsible-content">
-    <img src="climref_overlap.png" class="image-left" alt="Future ocean climate and implications for Australia's marine protected areas"/>
-    *Put abstract here*
-  </div>
+
+<summary>Future ocean climate and implications for Australia's marine protected areas</summary>
+
+::: collapsible-content
+```         
+<img src="climref_overlap.png" class="image-left" alt="Future ocean climate and implications for Australia's marine protected areas"/>
+*Put abstract here*
+```
+:::
+
 </details>
 
 <hr class="section-divider"/>
@@ -104,9 +109,14 @@ toc-location: left
 ### Other
 
 <details>
-  <summary>Blahblahblah</summary>
-  <div class="collapsible-content">
-    <img src="SSP245_tos.gif" alt="Example GIF of daily sea surface temperature for SSP2-4.5 emissions scenario for 1993" style="max-width: 60%; height: auto; margin-left: 35px;"/>
-    *Put whatever here*
-  </div>
+
+<summary>Blahblahblah</summary>
+
+::: collapsible-content
+```         
+<img src="SSP245_tos.gif" alt="Example GIF of daily sea surface temperature for SSP2-4.5 emissions scenario for 1993" style="max-width: 60%; height: auto; margin-left: 35px;"/>
+*Put whatever here*
+```
+:::
+
 </details>
