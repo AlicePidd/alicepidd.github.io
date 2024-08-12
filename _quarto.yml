@@ -10,44 +10,46 @@
 website:
   title: "Alice Pidd"  # Your name
   description: "Alice is a PhD student at USC"   # A brief slogan (optional)
-  image: img/my_image.jpg # Photo of yourself from the img folder within this proj
+  image: img/NZ2023_1.jpg # Photo of yourself from the img folder within this proj
   
-  favicon: img/favicon.png # Logo or icon for the website, same as firefox or other website logos you see in a tab
+  favicon: img/icon.png # Logo or icon for the website, same as firefox or other website logos you see in a tab
   
   # start of the navigation bar at the top of the website
   navbar:
     pinned: true # Navbar will be stuck at the top
-    logo: /img/logo.png # Logo to the left of the navbar
+    logo: /img/icon.png # Logo to the left of the navbar
     
     # your sub-pages
     left: # Justified to the left of the 
-      - text: "Projects" # Name that's displayed
-        href: projects/index.qmd # Folder for where to find the info
-      - text: "TestProjects" 
-        href: projectsTest/index.qmd # Website address/hyperlink
-      - text: "Blog" 
-        href: posts.qmd 
-      - text: "Photography" 
-        href: photography/index.qmd 
+      # - text: "Projects" # Name that's displayed
+      #   href: projects/index.qmd # Folder for where to find the info
+      - text: "Current projects" 
+        href: current_projects/index.qmd # Website address/hyperlink
+      - text: "TEST" 
+        href: current_projectsTEST/index.qmd # Website address/hyperlink
+
+      # - text: "Blog" 
+      #   href: posts.qmd 
+      # - text: "Photography" 
+      #   href: photography/index.qmd 
       - text: "CV" 
         href: cv/index.qmd 
       - text: "Publications" 
-        href: https://scholar.google.com.au 
+        href: https://scholar.google.com.au/citations?user=2nZwCKEAAAAJ&hl=en
         target: _blank 
     
     # your social media handles
     right:
-      - icon: twitter
-        href: https://twitter.com/alicempidd
-      - icon: linkedin
-        href: https://www.linkedin.com/XXXX
+      # - icon: linkedin
+      #   href: https://www.linkedin.com/XXXX
       - icon: envelope
         aria-label: email
-        href: "mailto:XXXX@XXX.com"  
+        href: "mailto:alicempidd@gmail.com"  
       - icon: github
-        href: https://github.com/MathMarEcol
-  
-  
+        href: https://github.com/AlicePidd
+      - icon: twitter
+        href: https://twitter.com/alicempidd
+        
 
 # Don't touch unless you know what you are doing :) ------------
   search: 
@@ -76,8 +78,10 @@ format:
   html:
     fontsize: 1.1em
     theme: 
-      - pulse # 
-      - html/styles.scss
+      # - Slate # Website theme !!!!
+      - Lux
+      # - Solar
+      # - html/styles.scss
     toc: false
     code-link: true
     anchor-sections: true

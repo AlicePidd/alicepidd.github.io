@@ -1,0 +1,112 @@
+---
+title: Current projects
+toc: true
+toc-title: Current projects
+toc-location: left
+---
+
+<style>
+  .document-title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px; /* Thickness of the line */
+    background-color: black; /* Color of the line */
+  }
+  
+  .image-left {
+    float: left;
+    margin-right: 20px; /* Adjust the spacing between the image and text */
+    margin-left: 40px; /* Adjust the spacing between the image and left margin */
+    max-width: 30%; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  /* Custom header sizes */
+  h1 {
+    font-size: 2em; /* Size for h1 headings */
+  }
+
+  h2 {
+    font-size: 1.5em; /* Size for h2 headings */
+  }
+
+  h3 {
+    font-size: 1.25em; /* Size for h3 headings */
+    font-weight: bold; /* Makes the text bold */
+    margin-left: 20px; /* Indent the h3 headings */
+  }
+
+  h4 {
+    font-size: 1em; /* Size for h4 headings */
+    margin-left: 40px; /* Indent the h4 headings */
+  }
+  
+  /* Clearfix class to handle floated elements */
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  /* Style for collapsible sections */
+  details {
+    margin-bottom: 10px; /* Space below each collapsible section */
+    margin-left: 20px; /* Space beside each collapsible section */
+  }
+  
+  summary {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    background-color: transparent; /* No background color */
+    border: none; /* No border */
+  }
+  
+  summary:hover {
+    background-color: #e3fafc; /* Light background color on hover */
+  }
+  
+  .collapsible-content {
+    padding: 10px;
+    display: none; /* Hide content by default */
+  }
+  
+  details[open] .collapsible-content {
+    display: block; /* Show content when section is open */
+  }
+  
+  /* Style for horizontal lines */
+  .section-divider {
+    border: none;
+    border-top: 2px solid #ccc; /* Thickness and color of the line */
+    margin: 20px 0; /* Spacing above and below the line */
+  }
+</style>
+
+
+### PhD chapters (University of the Sunshine Coast, QLD, Australia)
+
+<details>
+  <summary>Future ocean climate and implications for Australia's marine protected areas</summary>
+  <div class="collapsible-content">
+    <img src="climref_overlap.png" class="image-left" alt="Future ocean climate and implications for Australia's marine protected areas"/>
+    *Put abstract here*
+  </div>
+</details>
+
+<hr class="section-divider"/>
+
+### Other
+
+<details>
+  <summary>Blahblahblah</summary>
+  <div class="collapsible-content">
+    <img src="SSP245_tos.gif" alt="Example GIF of daily sea surface temperature for SSP2-4.5 emissions scenario for 1993" style="max-width: 60%; height: auto; margin-left: 35px;"/>
+    *Put whatever here*
+  </div>
+</details>
