@@ -21,6 +21,7 @@ about:
 ::: {#about-block}
 :::
 
-# Ahoy!
+# Ahoy, and thanks for visiting!
 
-I am a PhD student, chronic problem-solver, blahblahblah, out-of-doors enthusiast, lover of disco music. Something something data vis, marine quantitative ecology, looking for a post doc etc.
+I am a PhD student, chronic problem-solver, question-asker, and out-of-doors enthusiast. I am most interested in answering questions related to global marine sustainability and the persistence of species, particularly surrounding the efficacy of current ocean management in the face of climate threats. PhD's grant many wonderful opportunities that lead to realisations, the most notable among mine being a love for data visualisation, teaching, and finding solutions that are robust to the passage of time. With an expected graduation date of September 2025, I am searching for post-doc opportunities around the world within the field of quantitative marine ecology. I am particularly interested in projects with a focus on using climate projections and metrics to understand the possible responses of marine biodiversity to mid- and long-term climate threats, and to use this to inform the management of resources. 
+
