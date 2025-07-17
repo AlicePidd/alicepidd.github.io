@@ -38,13 +38,15 @@ website:
     
     # your social media handles
     right:
-      - icon: linkedin
-        href: https://www.linkedin.com/in/alicepidd/
+      # - icon: linkedin
+      #   href: https://www.linkedin.com/XXXX
       - icon: envelope
         aria-label: email
         href: "mailto:alicempidd@gmail.com"  
       - icon: github
         href: https://github.com/AlicePidd
+      - icon: twitter
+        href: https://twitter.com/alicempidd
         
 
 # Don't touch unless you know what you are doing :) ------------
